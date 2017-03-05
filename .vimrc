@@ -24,18 +24,8 @@ syntax on
 colorscheme molokai
 set t_Co=256
 
-
-
-
-
-
 set enc=utf-8
 set t_ti=""
-
-
-
-
-
 
 " esc
 noremap <C-j> <esc>
@@ -57,3 +47,6 @@ let g:typescript_compiler_options = ''
 autocmd FileType typescript :set makeprg=tsc
 autocmd QuickFixCmdPost [^l]* nested cwindow
 autocmd QuickFixCmdPost    l* nested lwindow
+
+
+filetype plugin indent on
