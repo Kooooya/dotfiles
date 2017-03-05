@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/fushixingye/repos/src/github.com/eure/pairs-fs/service/pairsadmin/private/modules/components/parameters/responses'
+let g:netrw_dirhist_2='/Users/fushixingye/repos/src/github.com/Kooooya/anything/core/config'
+let g:netrw_dirhist_3='/Users/fushixingye/repos/src/github.com/Kooooya/rely/core'
+let g:netrw_dirhist_4='/Users/fushixingye/repos/src/github.com/Kooooya/rely/core/app'
+let g:netrw_dirhist_5='/Users/fushixingye/repos/src/github.com/Kooooya/rely/core/lib/template'
+let g:netrw_dirhist_6='/Users/fushixingye/repos/src/github.com/Kooooya/rely/core/config/data/dev'
