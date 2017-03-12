@@ -11,9 +11,14 @@ Plug 'nsf/gocode', { 'rtp': 'vim', 'do': '~/.vim/plugged/gocode/vim/symlink.sh' 
 Plug 'tomasr/molokai'
 Plug 'leafgarland/typescript-vim'
 Plug 'jason0x43/vim-js-indent'
+Plug 'ervandew/supertab'
+Plug 'Shougo/vimproc.vim', {'do' : 'make'}
+Plug 'shawncplus/phpcomplete.vim'
+Plug 'posva/vim-vue'
 
 call plug#end()
 
+let g:SuperTabDefaultCompletionType = "<c-x><c-o>"
 
 " color scheme
 "
@@ -48,5 +53,11 @@ autocmd FileType typescript :set makeprg=tsc
 autocmd QuickFixCmdPost [^l]* nested cwindow
 autocmd QuickFixCmdPost    l* nested lwindow
 
-
+" php
 filetype plugin indent on
+autocmd FileType php setlocal omnifunc=phpcomplete#CompletePHP
+
+set completeopt=longest,menuone
+
+let g:phpcomplete_index_composer_command='/usr/local/bin/composer'
+let g:syntastic_php_checkers = ['php', 'phpcs', 'phpmd']
