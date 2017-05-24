@@ -11,16 +11,13 @@ Plug 'nsf/gocode', { 'rtp': 'vim', 'do': '~/.vim/plugged/gocode/vim/symlink.sh' 
 Plug 'tomasr/molokai'
 Plug 'leafgarland/typescript-vim'
 Plug 'jason0x43/vim-js-indent'
-<<<<<<< Updated upstream
 Plug 'ervandew/supertab'
 Plug 'Shougo/vimproc.vim', {'do' : 'make'}
 Plug 'shawncplus/phpcomplete.vim'
 Plug 'posva/vim-vue'
-=======
 Plug 'soramugi/auto-ctags.vim'
 Plug 'vim-erlang/vim-erlang-omnicomplete'
 Plug 'vim-erlang/vim-erlang-runtime'
->>>>>>> Stashed changes
 
 call plug#end()
 
@@ -38,13 +35,6 @@ set t_Co=256
 set enc=utf-8
 set t_ti=""
 
-<<<<<<< Updated upstream
-=======
-
-
-
-
->>>>>>> Stashed changes
 " esc
 noremap <C-j> <esc>
 noremap! <C-j> <esc>
