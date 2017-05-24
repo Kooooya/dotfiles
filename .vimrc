@@ -65,7 +65,7 @@ set completeopt=longest,menuone
 
 let g:phpcomplete_index_composer_command='/usr/local/bin/composer'
 let g:syntastic_php_checkers = ['php', 'phpcs', 'phpmd']
-=======
+
 let g:auto_ctags = 1
 let g:auto_ctags_directory_list = ['.git', '.svn']
 
@@ -97,4 +97,3 @@ endif
 if !exists('g:neocomplete#force_omni_input_patterns')
   let g:neocomplete#force_omni_input_patterns = {}
 endif
->>>>>>> Stashed changes
