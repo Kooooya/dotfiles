@@ -56,7 +56,6 @@ autocmd FileType typescript :set makeprg=tsc
 autocmd QuickFixCmdPost [^l]* nested cwindow
 autocmd QuickFixCmdPost    l* nested lwindow
 
-<<<<<<< Updated upstream
 " php
 filetype plugin indent on
 autocmd FileType php setlocal omnifunc=phpcomplete#CompletePHP
